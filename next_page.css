@@ -1,0 +1,47 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6ee; /* Light Pink */
+}
+
+header {
+    background-color: #1891e2; /* Pink */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the text within the container */
+}
+
+h2, h3 {
+    color: #ff80ab; /* Pink */
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.enter-button {
+    display: inline-block;
+    padding: 20px 40px; /* Adjusted padding for the button */
+    font-size: 1.5em; /* Increased font size */
+    background-color: #ad063e; /* Pink */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #ff5588; /* Lighter Pink on hover */
+}

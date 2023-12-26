@@ -24,18 +24,21 @@
         <h3>Get Inspired</h3>
         <p>Let the magic of Prisha's World inspire you to create, dream, and embrace the beauty of imagination.</p>
 
-        <a href="next_page.html" class="enter-button">Enter Prisha's World</a>
+        <a href="next_page.html" class="enter-button" onclick="playEnterAudio()">Enter Prisha's World</a>
     </div>
 
     <!-- Use an invisible button to simulate a click and trigger audio playback -->
     <button id="audioButton" style="display: none;"></button>
 
     <audio id="backgroundAudio" controls src="background_audio.mp3" loop autoplay></audio>
+    <audio id="enterAudio" src="enter_audio.wav"></audio>
 
     <script src="script.js"></script>
     <script>
-        // Simulate a click on the invisible button to trigger audio playback
-        document.getElementById('audioButton').click();
+        function playEnterAudio() {
+            var audio = document.getElementById('enterAudio');
+            audio.play();
+        }
     </script>
 </body>
 
