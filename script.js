@@ -1,4 +1,4 @@
-// JavaScript animation (simple scale animation)
+// JavaScript animation (No changes)
 const cartoonImage = document.querySelector('.cartoon-image');
 
 function scaleAnimation() {

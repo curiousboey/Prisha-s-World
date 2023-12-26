@@ -14,11 +14,11 @@ header {
 }
 
 .cartoon-image {
-    max-width: 100%;
+    max-width: 30%; /* Adjusted max-width for the cartoon image */
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 0 auto 20px; /* Center the image horizontally */
+    display: block; /* To clear the float */
 }
 
 .container {
@@ -27,6 +27,7 @@ header {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the text within the container */
 }
 
 h2, h3 {
@@ -36,4 +37,19 @@ h2, h3 {
 p {
     line-height: 1.6;
     color: #333;
+}
+
+.enter-button {
+    display: inline-block;
+    padding: 20px 40px; /* Adjusted padding for the button */
+    font-size: 1.5em; /* Increased font size */
+    background-color: #ad063e; /* Pink */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #ff5588; /* Lighter Pink on hover */
 }

@@ -14,7 +14,7 @@
     </header>
 
     <div class="container">
-        <img src="prisha_cartoon.png" alt="Prisha Cartoon" class="cartoon-image">
+        <img src="prisha_cartoon.jpg" alt="Prisha Cartoon" class="cartoon-image">
         <h2>Welcome to Prisha's World!</h2>
         <p>This is a magical place where Prisha explores fantastic stories, delightful art, and endless possibilities!</p>
 
@@ -23,9 +23,20 @@
 
         <h3>Get Inspired</h3>
         <p>Let the magic of Prisha's World inspire you to create, dream, and embrace the beauty of imagination.</p>
+
+        <a href="next_page.html" class="enter-button">Enter Prisha's World</a>
     </div>
 
+    <!-- Use an invisible button to simulate a click and trigger audio playback -->
+    <button id="audioButton" style="display: none;"></button>
+
+    <audio id="backgroundAudio" controls src="background_audio.mp3" loop autoplay></audio>
+
     <script src="script.js"></script>
+    <script>
+        // Simulate a click on the invisible button to trigger audio playback
+        document.getElementById('audioButton').click();
+    </script>
 </body>
 
 </html>
